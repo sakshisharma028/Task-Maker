@@ -7,6 +7,9 @@ import android.util.Log;
 
 public class CleanupJobService extends JobService {
     private static final String TAG = CleanupJobService.class.getSimpleName();
+	String ="job";
+	int=5;
+	
 
     @Override
     public boolean onStartJob(JobParameters params) {
